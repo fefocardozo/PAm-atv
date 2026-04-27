@@ -67,6 +67,16 @@ namespace CopaHAS.Data
             optionsBuilder.ConfigureWarnings(warnings => warnings
             .Ignore(RelationalEventId.PendingModelChangesWarning));
         }
+
+        internal async Task<int> SaveChargeAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        internal async Task SaveChangesAsync()
+        {
+            throw new NotImplementedException();
+        }
         //Inserir as linhas "new Jogador(){ Id = 1, ..." das lista de jogadores
 
     }

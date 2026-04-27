@@ -64,7 +64,7 @@ namespace CopaHAS.Controllers
             _context.TB_ESTADIOS.Remove(eRemover);
 
                 int linhasAfetadas = await
-            _context.SaveChangesAsync();
+            _context.SaveChargeAsync();
                 return Ok(linhasAfetadas); 
             }
             catch (System.Exception ex)
